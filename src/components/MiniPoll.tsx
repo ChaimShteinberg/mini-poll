@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 function MiniPoll() {
-  const [options, setOptions] = useState(["React", "Vue", "Svelte"]);
-  const [votes, setVotes] = useState({
+  const [_options, _setOptions] = useState(["React", "Vue", "Svelte"]);
+  const [_votes, _setVotes] = useState({
     React: 0,
     Vue: 0,
     Svelte: 0,
   });
-  const [showResults, setShowResults] = useState(false);
+  const [_showResults, _setShowResults] = useState(false);
   return <></>;
 }
 
