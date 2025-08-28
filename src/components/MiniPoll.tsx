@@ -7,6 +7,7 @@ function MiniPoll() {
     Vue: 0,
     Svelte: 0,
   });
+  const [showResults, setShowResults] = useState(false);
   return <></>;
 }
 
